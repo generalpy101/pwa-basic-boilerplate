@@ -1,0 +1,30 @@
+{
+    "name": "Test app",
+    "short_name": "Test",
+    "start_url": "/",
+    "orientation": "portrait",
+    "theme_color": "#fff",
+    "background_color" : "#fff",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "description": "This is basic PWA."
+  }
+  

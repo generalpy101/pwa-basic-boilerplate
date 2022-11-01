@@ -1,0 +1,27 @@
+{
+  "name": "pwa-boilerplate-basic",
+  "version": "1.0.2",
+  "description": "A boilerplate to create a simple pwa",
+  "bin": {
+    "pwa-boilerplate-basic": "./bin/generate-app.js"
+  },
+  "source": "src/index.html",
+  "scripts": {
+    "start": "workbox generateSW && npx serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PWA",
+    "js",
+    "npm"
+  ],
+  "author": "generalpy",
+  "license": "ISC",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "rmrf": "^2.0.4"
+  }
+}

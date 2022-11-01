@@ -1,0 +1,19 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.greeting-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media (display-mode: standalone) {
+  #btnInstall {
+    display: none;
+  }
+}
