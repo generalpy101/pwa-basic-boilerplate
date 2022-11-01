@@ -30,7 +30,7 @@ if (process.argv.length < 3) {
 const ownPath = process.cwd();
 const folderName = process.argv[2];
 const appPath = path.join(ownPath, folderName);
-const repo = "https://github.com/generalpy101/pwa-boilerplate-basic";
+const repo = "https://github.com/generalpy101/pwa-basic-boilerplate";
 
 try {
   fs.mkdirSync(appPath);
